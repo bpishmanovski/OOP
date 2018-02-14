@@ -21,3 +21,5 @@ class Task
 }
 
 $task = new Task('Learn OOP', 'The teacher bla bla...');
+var_dump($task->title, $task->description, $task->completed, $task->complete(), $task->completed);
+
